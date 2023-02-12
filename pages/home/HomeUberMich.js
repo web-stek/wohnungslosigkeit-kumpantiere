@@ -16,16 +16,17 @@ export default function HomeUberMich() {
               alt="Marisa und Hund"
             />
           </div>
-          
         </div>
       </div>
-      <div className="text-xs p-2 text-end mb-5">Photo by Marisco</div>
+      <div className="text-xs p-2 text-end mb-5 text-slate-800">
+        Photo by Marisco
+      </div>
 
-      <p className="mt-2">
+      <p className="mt-2 text-slate-800">
         Mein Name ist Marisa Geiser-Krummenacher. Ich lebe gemeinsam mit meinem
         Mann, zwei Katzen und einem Hund in der Region Basel.
       </p>
-      <p className="mt-2">
+      <p className="mt-2 text-slate-800">
         Nach einer kaufmännischen Grundausbildung auf einer Bank absolvierte ich
         ein Bachelorstudium in Sozialer Arbeit und ein Masterstudium in Frieden,
         Entwicklung, Sicherheit und internationaler Konflikttransformation.
@@ -35,7 +36,7 @@ export default function HomeUberMich() {
         Berufsbildung, betrieblicher Sozialberatung, Gesundheitsförderung und
         Prävention sowie Sozialraumplanung.
       </p>
-      <p className="mt-2">
+      <p className="mt-2 text-slate-800">
         Aufgrund meiner engen Beziehung zu Tieren absolvierte ich an der
         Universität Basel den CAS in tiergestützter Therapie und arbeitete in
         einem Pflegeheim in der tiergestützten Aktivierung. Während dieser Zeit

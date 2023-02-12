@@ -3,7 +3,7 @@ import React from "react";
 export default function HomeMeinProjekt() {
   return (
     <div>
-      <p  className="mt-2">
+      <p className="mt-2 text-slate-800">
         Im Rahmen meiner Doktorarbeit an der Hochschule für Angewandte
         Wissenschaften Hessen möchte ich die Mensch-Tier-Beziehung zwischen
         wohnungslosen Personen und ihren Tieren untersuchen. Dabei interessiert
@@ -13,11 +13,14 @@ export default function HomeMeinProjekt() {
         Konfliktmomente? Wie können sie diese gemeinsam überwinden? Wo fühlen
         sie sich im Stich gelassen?
       </p>
-      <p className="mt-2">
-        Meine Fragestellung dazu lautet: <br/><span className="font-semibold">«Wie sieht das Leben von wohnungslosen
-        Menschen und ihren Kumpantieren in der deutschsprachigen Schweiz aus?»</span>
+      <p className="mt-2 text-slate-800">
+        Meine Fragestellung dazu lautet: <br />
+        <span className="font-semibold text-slate-800">
+          «Wie sieht das Leben von wohnungslosen Menschen und ihren Kumpantieren
+          in der deutschsprachigen Schweiz aus?»
+        </span>
       </p>
-      <p  className="mt-2">
+      <p className="mt-2 text-slate-800">
         Um diese Frage zu beantworten, möchte ich wohnungslose Personen und ihre
         Tiere begleiten, beobachten und gemeinsame Gespräche führen.
       </p>

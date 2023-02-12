@@ -22,7 +22,9 @@ export default function HomeGesucht() {
               src={Image1}
               alt="zugedeckter Hund schläft auf einer Matratze auf der Strasse"
             />
-            <div className="text-xs p-2 text-end">Photo by The Humantra</div>
+            <div className="text-xs p-2 text-end  text-slate-800">
+              Photo by The Humantra
+            </div>
           </div>
           <div className="flex-1 bg-th-background-secondary p-6 flex flex-col justify-between">
             <div className="flex-1">
@@ -30,10 +32,10 @@ export default function HomeGesucht() {
                 Gesucht
               </p>
               <a href="#" className="block mt-2">
-                <p className="text-xl font-semibold">
+                <p className="text-xl font-semibold  text-slate-800">
                   Ich bin auf der Suche nach...
                 </p>
-                <ul className="text-base list-disc ml-5 p-2">
+                <ul className="text-base list-disc ml-5 p-2 text-slate-800">
                   <li>
                     wohnungslosen Tierhhaltenden, welche bereit sind bei einem
                     gemeinsamen Spaziergang über ihren Alltag mit ihrem Tier /
@@ -43,7 +45,7 @@ export default function HomeGesucht() {
                     Institutionen, welche Tiere in ihren Räumlichkeiten zulassen
                   </li>
                 </ul>
-                <p className="text-base mt-5">
+                <p className="text-base mt-5 text-slate-800">
                   Bei Interesse schreibt mir eine SMS.
                 </p>
               </a>
@@ -51,7 +53,9 @@ export default function HomeGesucht() {
             <div className="mt-6 flex items-center">
               <div className="flex-shrink-0">
                 <a href="#">
-                  <span className="sr-only">Marisa Geiser-Krummenacher</span>
+                  <span className="sr-only text-slate-800">
+                    Marisa Geiser-Krummenacher
+                  </span>
                   <Image
                     className="h-10 w-10 rounded-full"
                     src={AutorImage}
@@ -60,7 +64,9 @@ export default function HomeGesucht() {
                 </a>
               </div>
               <div className="ml-3">
-                <p className="text-sm font-medium">Marisa Geiser-Krummenacher</p>
+                <p className="text-sm font-medium text-slate-800">
+                  Marisa Geiser-Krummenacher
+                </p>
                 <div className="flex space-x-1 text-sm text-ocean-600">
                   <span>
                     <a href={`tel:${num}`}>{num}</a>

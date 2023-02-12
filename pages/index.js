@@ -21,11 +21,11 @@ export default function Home() {
             <div className="col-span-4 place-items-strat text-left">
               <div className="grid justify-items-end mb-20">
                 <div>
-                  <div className="text-lg font-semibold italic">
+                  <div className="text-lg font-semibold italic text-slate-800">
                   &quot;Egal, wie wenig Geld und Besitz du hast: Einen Hund zu
                     haben macht dich reich.&quot;
                   </div>
-                  <div className="text-right"> ― Louis Sabin</div>
+                  <div className="text-right  text-slate-800"> ― Louis Sabin</div>
                 </div>
               </div>
             </div>
