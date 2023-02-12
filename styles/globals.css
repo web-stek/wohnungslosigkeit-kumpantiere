@@ -1,0 +1,40 @@
+/* ./styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  height: 100%;
+  display: grid;
+}
+
+#__next {
+  height: 100%;
+  grid-row: 1/-1;
+  grid-column: 1/-1;
+}
+
+:root {
+  --background: theme("colors.white");
+
+  --accent-dark: theme("colors.ocean.600");
+  --accent-medium: theme("colors.ocean.500");
+  --accent-light: theme("colors.ocean.400");
+}
+
+
+.skip {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.skip:focus {
+  position: static;
+  width: auto;
+  height: auto;
+}
