@@ -22,8 +22,8 @@ export default function Home() {
               <div className="grid justify-items-end mb-20">
                 <div>
                   <div className="text-lg font-semibold italic">
-                    "Egal, wie wenig Geld und Besitz du hast: Einen Hund zu
-                    haben macht dich reich.”
+                  &quot;Egal, wie wenig Geld und Besitz du hast: Einen Hund zu
+                    haben macht dich reich.&quot;
                   </div>
                   <div className="text-right"> ― Louis Sabin</div>
                 </div>
@@ -82,7 +82,6 @@ export default function Home() {
           made with 🎔 by{" "}
           <a
             className="text-ocean-600"
-            target="_blank"
             href="https://www.web-stek.ch/"
           >
             web|stek
